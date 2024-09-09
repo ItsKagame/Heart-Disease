@@ -10,7 +10,6 @@ This project involves building a machine learning model to predict the likelihoo
 - [Modeling](#modeling)
 - [Results](#results)
 - [How to Use](#how-to-use)
-- [Contributors](#contributors)
 
 ## Project Overview
 The primary goal of this project is to develop a predictive model that can accurately classify whether a patient is likely to have heart disease based on specific health indicators. This model is particularly useful for early detection and preventive care in the healthcare industry.
