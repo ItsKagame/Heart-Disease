@@ -1,53 +1,53 @@
 # Heart Disease Prediction
 
-This project focuses on predicting heart disease using machine learning algorithms. The goal is to build a model that accurately classifies whether a patient is likely to have heart disease based on various medical attributes.
+This project involves building a machine learning model to predict the likelihood of heart disease in patients. The project leverages various data preprocessing techniques and employs a Logistic Regression model to make predictions. The model's performance is evaluated using accuracy metrics.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
 - [Modeling](#modeling)
-- [Evaluation](#evaluation)
-- [Conclusion](#conclusion)
-- [How to Run](#how-to-run)
-- [Requirements](#requirements)
+- [Results](#results)
+- [How to Use](#how-to-use)
+- [Contributors](#contributors)
 
 ## Project Overview
-Heart disease remains one of the leading causes of death globally. Early detection is critical in preventing severe outcomes. This project leverages machine learning techniques to create a predictive model that helps in the early diagnosis of heart disease.
+The primary goal of this project is to develop a predictive model that can accurately classify whether a patient is likely to have heart disease based on specific health indicators. This model is particularly useful for early detection and preventive care in the healthcare industry.
 
 ## Dataset
-The dataset used in this project is the [Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/Heart+Disease) from the UCI Machine Learning Repository. The dataset includes features such as age, gender, chest pain type, resting blood pressure, cholesterol level, and more.
+The dataset used in this project contains features such as age, cholesterol levels, and blood pressure, among others. It is split into training and testing sets to evaluate the performance of the model.
 
-## Exploratory Data Analysis
-Exploratory Data Analysis (EDA) was conducted to understand the distribution and relationships between different features. The analysis included:
-- Visualizing the distribution of each feature
-- Investigating the relationships between features and the target variable (heart disease presence)
-- Identifying and handling missing values and outliers
+## Installation
+To run this project locally, follow these steps:
+1. Clone the repository.
+2. Install the required packages using the following command:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Ensure you have Jupyter Notebook or any Python IDE installed.
+
+## Project Structure
+The notebook follows this structure:
+1. **Data Preprocessing**: Handling missing values, encoding categorical variables, and scaling features.
+2. **Model Training**: Training a Logistic Regression model on the training data.
+3. **Model Validation**: Evaluating the model's accuracy using the test data.
+4. **Model Saving**: The trained model is saved as `saved_model.sav` for future use.
 
 ## Modeling
-Several machine learning models were implemented and evaluated for their performance in predicting heart disease. These include:
-- Logistic Regression
-- Decision Trees
-- Random Forest
-- Support Vector Machines (SVM)
+- **Algorithm Used**: Logistic Regression
+- **Training Process**: The model was trained on the preprocessed dataset using a Logistic Regression classifier.
+- **Evaluation**: The accuracy of the model was calculated using the `accuracy_score` metric from `sklearn`.
 
-## Evaluation
-The models were evaluated using metrics such as accuracy, precision, recall, and F1-score. The model performance was further improved through hyperparameter tuning and cross-validation.
+## Results
+The model achieved an accuracy of **91.44%** on the test data, indicating a strong ability to predict heart disease cases.
 
-## Conclusion
-The Random Forest model achieved the highest accuracy in predicting heart disease. This model can be further improved with additional data and feature engineering.
+## How to Use
+1. Run the Jupyter notebook `Heart_disease.ipynb` to preprocess the data, train the model, and make predictions.
+2. The trained model is saved in the file `saved_model.sav`. You can load this model and use it for prediction tasks on new data.
 
-## How to Run
-To run this project locally:
-1. Clone the repository.
-2. Install the necessary dependencies using `pip install -r requirements.txt`.
-3. Open the Jupyter notebook `Heart_disease.ipynb` and run the cells sequentially.
+## Contributors
+- **Your Name** - Data Scientist
 
-## Requirements
-- Python 3.7+
-- Jupyter Notebook
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- seaborn
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
