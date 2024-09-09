@@ -45,9 +45,3 @@ The model achieved an accuracy of **91.44%** on the test data, indicating a stro
 ## How to Use
 1. Run the Jupyter notebook `Heart_disease.ipynb` to preprocess the data, train the model, and make predictions.
 2. The trained model is saved in the file `saved_model.sav`. You can load this model and use it for prediction tasks on new data.
-
-## Contributors
-- **Your Name** - Data Scientist
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
