@@ -5,7 +5,6 @@ This project involves building a machine learning model to predict the likelihoo
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
-- [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Modeling](#modeling)
 - [Results](#results)
@@ -16,15 +15,6 @@ The primary goal of this project is to develop a predictive model that can accur
 
 ## Dataset
 The dataset used in this project contains features such as age, cholesterol levels, and blood pressure, among others. It is split into training and testing sets to evaluate the performance of the model.
-
-## Installation
-To run this project locally, follow these steps:
-1. Clone the repository.
-2. Install the required packages using the following command:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Ensure you have Jupyter Notebook or any Python IDE installed.
 
 ## Project Structure
 The notebook follows this structure:
